@@ -8,7 +8,7 @@ class App extends Component {
     this.change = this.change.bind(this);
   }
 
-  change() {
+  change(props) {
     return (
       <p id="para">
         You have to make a button that on click will render a paragraph tag,
